@@ -1,10 +1,6 @@
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 SECCUS CASES:
- 
-	>>> bg = BaseGeometry()
-	>>> bg.integer_validator("name", 2)
-
 
 	>>> bg = BaseGeometry()
 	>>> bg.integer_validator("name", (5))
