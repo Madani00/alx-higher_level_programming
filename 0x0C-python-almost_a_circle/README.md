@@ -5,17 +5,17 @@ The AirBnB project is a big part of the Higher level curriculum. This project wi
 
 * Import
 * Exceptions
-Class
-Private attribute
-Getter/Setter
-Class method
-Static method
-Inheritance
-Unittest
-Read/Write file
+* Class
+* Private attribute
+* Getter/Setter
+* Class method
+* Static method
+* Inheritance
+* Unittest
+* Read/Write file
 
 ### You will also learn about:
 
-args and kwargs
-Serialization/Deserialization
-JSON
+* args and kwargs
+* Serialization/Deserialization
+* JSON
