@@ -1,4 +1,4 @@
-<h2 style="center-align: center">
+<h2 align="center">
   0x0C. Python - Almost a circle
 </h2>
 
