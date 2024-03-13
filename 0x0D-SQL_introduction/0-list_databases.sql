@@ -1,3 +1,4 @@
--- list all my databeses in MYSQL
+-- list all my databeses in MYSQL.
+
 
 SHOW DATABASES;
