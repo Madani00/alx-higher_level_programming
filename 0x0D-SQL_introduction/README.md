@@ -55,17 +55,4 @@ performance_schema
 sys                      
 $
 ```
-In the container, credentials are root/root
-
-[Link text](https://www.example.com)
-
-```python
-print("Hello, world!")
-```
-
-> This is a blockquote.
-
-
-| Header 1 | Header 2 |
-|----------|----------|
-| Cell 1   | Cell 2   |
+> In the container, credentials are root/root
