@@ -61,5 +61,11 @@ In the container, credentials are root/root
 
 ```python
 print("Hello, world!")
+```
 
 > This is a blockquote.
+
+
+| Header 1 | Header 2 |
+|----------|----------|
+| Cell 1   | Cell 2   |
