@@ -1,3 +1,3 @@
--- to full describe a table without using DESCRIBE or EXPLAIN
+-- full describe of a table without using DESCRIBE or EXPLAIN
 
-DESC first_table;
+SHOW COLUMNS FROM first_table;
