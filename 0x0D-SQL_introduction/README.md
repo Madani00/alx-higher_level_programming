@@ -56,3 +56,6 @@ sys
 $
 ```
 In the container, credentials are root/root
+
+*italic*
+**bold**
