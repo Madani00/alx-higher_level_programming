@@ -15,7 +15,7 @@ $ mysql --version
 mysql  Ver 8.0.25-0ubuntu0.20.04.1 for Linux on x86_64 ((Ubuntu))
 $
 ```
-Connect to your MySQL server:
+**Connect to your MySQL server:**
 ```yaml
 $ sudo mysql
 Welcome to the MySQL monitor.  Commands end with ; or \g.
@@ -57,8 +57,9 @@ $
 ```
 In the container, credentials are root/root
 
-- Item 1
-- Item 2
-  - Subitem 1
-1. First item
-2. Second item
+[Link text](https://www.example.com)
+
+```python
+print("Hello, world!")
+
+> This is a blockquote.
