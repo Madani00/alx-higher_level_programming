@@ -21,6 +21,8 @@ $
 
 ![Alt text](https://cdn.educba.com/academy/wp-content/uploads/2019/11/joins-in-mysql-1.png)
 
+-
+
 ## task 3
 Write a script that creates the table force_name on your MySQL server.
 
