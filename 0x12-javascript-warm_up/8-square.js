@@ -4,17 +4,14 @@
 const { argv } = require('node:process');
 const k = parseInt(argv[2]);
 
-if (argv.length === 2) {
-  console.log('Missing size');
-} else if (k) {
-  let myVar = '';
+if (!isNaN(argv[2])) {
   for (let i = 0; i < k; i++) {
-    for (let k = 0; k < k; i++) {
-      myVar += 'X';
+    let row = '';
+    for (let j = 0; j < k; j++) {
+      row += 'X';
     }
-    console.log(myVar);
+    console.log(row);
   }
-  
 } else {
   console.log('Missing size');
 }
