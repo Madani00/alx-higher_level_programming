@@ -3,7 +3,7 @@
 // a script that searches the second biggest integer in the list of arguments.
 const { argv } = require('node:process');
 
-if (isNaN(argv[2]) || argv[2] === '1') {
+if (argv.length <= 3) {
   console.log('0');
 } else {
   const arrg = argv.slice(2);
