@@ -2,19 +2,19 @@
 
 // a script that prints a square
 const { argv } = require('node:process');
-let myVar;
+const k = parseInt(argv[2]);
 
 if (argv.length === 2) {
   console.log('Missing size');
-} else if (parseInt(argv[2])) {
+} else if (k) {
   let myVar = '';
-  for (let i = 0; i < argv[2]; i++) {
-    for (let k = 0; k < argv[2]; i++) {
+  for (let i = 0; i < k; i++) {
+    for (let k = 0; k < k; i++) {
       myVar += 'X';
     }
-    myVar += '\n';
+    console.log(myVar);
   }
-  console.log(myVar);
+  
 } else {
   console.log('Missing size');
 }
