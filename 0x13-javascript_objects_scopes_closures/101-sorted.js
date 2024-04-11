@@ -1,13 +1,13 @@
 #!/usr/bin/node
-const dic = require('./101-data').dict;
-const newDic = {};
+const dict = require('./101-data').dict;
 
-Object.keys(dic).forEach((key) => {
-    let arr = [];
-    if(dic[key] === 1) {
-        arr.push(key);
-    }
-    newDic.push(arr);
-});
+const newD = {};
+for (const key in dict) {
+  if (newD[dict[key]] === undefined) {
+    newD[dict[key]] = [key];
+  } else {
+    newD[dict[key]].push(key);
+  }
+}
 
-console.log(newDic);
+console.log(newD);
