@@ -42,4 +42,4 @@ session.close()
 * Indeed,, all of them have the same type of syntax, but not always. Please read tutorials and don’t read the entire documentation before starting, just jump on it if you don’t get something.
 
 ---
-![Alt text]([image_url](https://www.altexsoft.com/static/blog-post/2023/12/242d6d32-29d5-4d4d-881e-a28f16a12039.jpg))
+!([image_url](https://www.altexsoft.com/static/blog-post/2023/12/242d6d32-29d5-4d4d-881e-a28f16a12039.jpg))
