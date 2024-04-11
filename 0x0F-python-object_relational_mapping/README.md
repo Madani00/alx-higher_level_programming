@@ -43,4 +43,4 @@ session.close()
 
 ---
 
-![Alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.altexsoft.com%2Fblog%2Fobject-relational-mapping-tools%2F&psig=AOvVaw39HOcbfiFt_FFeSp9lNmbn&ust=1712962636233000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLjklaChu4UDFQAAAAAdAAAAABAE)
+![Alt text](https://miro.medium.com/v2/resize:fit:1400/0*T2lo_qEchbm5KfS5)
