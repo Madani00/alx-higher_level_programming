@@ -42,4 +42,5 @@ session.close()
 * Indeed,, all of them have the same type of syntax, but not always. Please read tutorials and don’t read the entire documentation before starting, just jump on it if you don’t get something.
 
 ---
-!([image_url] (https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.altexsoft.com%2Fblog%2Fobject-relational-mapping-tools%2F&psig=AOvVaw39HOcbfiFt_FFeSp9lNmbn&ust=1712962636233000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLjklaChu4UDFQAAAAAdAAAAABAE))
+
+![Alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.altexsoft.com%2Fblog%2Fobject-relational-mapping-tools%2F&psig=AOvVaw39HOcbfiFt_FFeSp9lNmbn&ust=1712962636233000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLjklaChu4UDFQAAAAAdAAAAABAE)
