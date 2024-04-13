@@ -7,6 +7,7 @@ table of hbtn_0e_0_usa where name matches the argument.
 import MySQLdb
 from sys import argv
 
+
 if __name__ == "__main__":
     db = MySQLdb.connect(host='localhost',
                          port=3306,
@@ -16,7 +17,7 @@ if __name__ == "__main__":
 
     cur = db.cursor()
     sql_com = "SELECT * FROM states WHERE BINARY name = '{}'
-    \ LIKE ORDER BY id ASC"
+    \ ORDER BY id ASC"
     cur.execute(sql_com)
     rows = cur.fetchall()
     for row in rows:
