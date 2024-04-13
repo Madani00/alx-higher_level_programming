@@ -16,9 +16,8 @@ if __name__ == "__main__":
                          db=argv[3])
 
     cur = db.cursor()
-    comm = "SELECT * FROM states WHERE name = %s LIKE BINARY '{}' \
-    ORDER BY id".format(argv[4])
-    cur.execute(comm, (state_name,))
+    comm = "SELECT * FROM states WHERE name = %s"
+    cur.execute(comm, (argv[4],))  # Use parameterized query to filter by name
     rows = cur.fetchall()
     for row in rows:
         print(row)
