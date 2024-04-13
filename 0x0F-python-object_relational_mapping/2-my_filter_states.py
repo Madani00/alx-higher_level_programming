@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     cur = db.cursor()
     sql_com = "SELECT * FROM states WHERE BINARY name = '{}'
-    \ ORDER BY id ASC"
+    \ ORDER BY id ASC".format(argv[4])
     cur.execute(sql_com)
     rows = cur.fetchall()
     for row in rows:
