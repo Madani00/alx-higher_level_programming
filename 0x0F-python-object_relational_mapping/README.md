@@ -42,5 +42,10 @@ session.close()
 * Indeed,, all of them have the same type of syntax, but not always. Please read tutorials and don’t read the entire documentation before starting, just jump on it if you don’t get something.
 
 ---
+## Why Do You Need Virtual Environments?
+The short answer is that Python isn’t great at dependency management. If you’re not specific, then *pip* will place all the external packages that you install in a folder called site-packages/ in your base Python installation.
+
+---
+
 
 ![Alt text](https://miro.medium.com/v2/resize:fit:1400/0*T2lo_qEchbm5KfS5)
