@@ -13,7 +13,7 @@ if __name__ = "__main__":
         db=argv[3],
     )
     cursor = db.cursor()
-    cursor.execute("SELECT * FROM states LIKE 'N\_%' ORDER BY id")
+    cursor.execute("SELECT * FROM states WHERE name LIKE 'N%' ORDER BY id")
     output = cursor.fetchall()
     for row in output:
         print(row)
