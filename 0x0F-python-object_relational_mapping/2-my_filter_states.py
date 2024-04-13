@@ -16,9 +16,9 @@ if __name__ == "__main__":
                          db=argv[3])
 
     cur = db.cursor()
-    sql_com = "SELECT * FROM states WHERE BINARY name = '{}'
-    \ ORDER BY id ASC".format(argv[4])
-    cur.execute(sql_com)
+    comm = "SELECT * FROM states WHERE name LIKE BINARY '{}' \
+    ORDER BY id".format(argv[4])
+    cur.execute(comm)
     rows = cur.fetchall()
     for row in rows:
         print(row)
