@@ -16,8 +16,8 @@ if __name__ == "__main__":
 
     cur = db.cursor()
     sql_com = "SELECT cities.name FROM cities \
-    INNER JOIN states ON states.id = cities.state_id \
-    AND states.name = %s"
+    JOIN states ON states.id = cities.state_id \
+    WHERE states.name = %s"
     cur.execute(sql_com, (argv[4],))
     rows = cur.fetchall()
     for row in rows:
