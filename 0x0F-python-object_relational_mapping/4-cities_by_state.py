@@ -14,9 +14,9 @@ if __name__ == "__main__":
                          db=argv[3])
 
     cur = db.cursor()
-    sql_com = "SELECT cities.id, cities.name, states.name
-    FROM cities
-    JOIN states ON cities.state_id = states.id
+    sql_com = "SELECT cities.id, cities.name, states.name \
+    FROM cities \
+    JOIN states ON cities.state_id = states.id \
     ORDER BY cities.id"
     cur.execute(sql_com)
     rows = cur.fetchall()
