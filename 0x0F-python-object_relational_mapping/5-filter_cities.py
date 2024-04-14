@@ -22,7 +22,7 @@ if __name__ == "__main__":
     result = ""
     rows = cur.fetchall()
     for row in rows:
-        if row < 1:
+        if result == "":
             result += row[0]
         else:
             result += ", " + row[0]
