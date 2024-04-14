@@ -21,7 +21,10 @@ if __name__ == "__main__":
     cur.execute(sql_com, (argv[4],))
     rows = cur.fetchall()
     for row in rows:
-        print(row)
+        if row < 1:
+            print(row)
+        else:
+            print("{}, ".format(row))
 
     cur.close()
     db.close()
