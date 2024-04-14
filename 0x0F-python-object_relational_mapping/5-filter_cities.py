@@ -19,12 +19,14 @@ if __name__ == "__main__":
     JOIN states ON states.id = cities.state_id \
     WHERE states.name = %s"
     cur.execute(sql_com, (argv[4],))
+    result = ""
     rows = cur.fetchall()
     for row in rows:
         if row < 1:
-            print(row)
+            result += row[0]
         else:
-            print("{}, ".format(row))
+            result += ", " + row[0]
+    print(result)
 
     cur.close()
     db.close()
