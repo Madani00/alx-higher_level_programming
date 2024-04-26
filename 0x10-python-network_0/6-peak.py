@@ -20,4 +20,3 @@ def find_peak(list_of_integers):
         return find_peak(list_of_integers[mid-1:])
     else:
         return list_of_integers[mid]
-    
