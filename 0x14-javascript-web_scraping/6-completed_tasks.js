@@ -3,7 +3,7 @@
 const request = require('request');
 const arg = process.argv;
 
-request(arg[2], (err, res`, body) => {
+request(arg[2], (err, res, body) => {
   if (!err) {
     const data = JSON.parse(body);
 
