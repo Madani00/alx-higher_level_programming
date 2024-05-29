@@ -1,6 +1,6 @@
 ## Dealing with data statically versus dynamically
 
-We often use the terms “static” and “dynamic” when it comes to websites. A static website is unchanging and stays the same regardless of how we interact with it. A dynamic website has content and/or presentation that can change (courtesy of scripts
+We often use the terms “static” and “dynamic” when it comes to websites. A static website is unchanging and stays the same regardless of how we interact with it, A dynamic website has content and/or presentation that can change (courtesy of scripts
  that loads every time the site is loaded). The same static-dynamic concept can be applied to data handling. If you deal with
  data statically, you’re using your dataset as a fixed set of values; if you deal with data dynamically, you’re using it as a set of data that changes over time.
 
